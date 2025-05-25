@@ -1,7 +1,7 @@
 import { create } from "zustand";
 import { NodeType, ConnectionType, SimulationSettings } from "@/types/diagram";
 
-const MAX_HISTORY_SIZE = 10;
+const MAX_HISTORY_SIZE = 25;
 
 interface DiagramState {
   title: string;
