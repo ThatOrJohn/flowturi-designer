@@ -371,7 +371,7 @@ const DiagramEditor = () => {
                   className="flex items-center gap-2"
                 >
                   <Save className="w-4 h-4" />
-                  Save Historical Data
+                  Generate Flowturi Data
                 </Button>
                 <ThemeToggle />
                 <SettingsPanel
