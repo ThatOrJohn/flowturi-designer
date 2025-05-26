@@ -109,10 +109,13 @@ const NodePalette = () => {
   return (
     <div className="w-64 border-r bg-background">
       <TitlePanel />
-      <div className="p-4 space-y-4">
-        {paletteNodes.map((node) => (
-          <PaletteNode key={node.type} node={node} />
-        ))}
+      <div className="p-4">
+        <h2 className="text-lg font-semibold mb-4">Node Palette</h2>
+        <div className="space-y-4">
+          {paletteNodes.map((node) => (
+            <PaletteNode key={node.type} node={node} />
+          ))}
+        </div>
       </div>
     </div>
   );
