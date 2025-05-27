@@ -1,11 +1,16 @@
 # Flowturi Designer
 
-A visual layout editor for [Flowturi](https://github.com/ThatOrJohn/flowturi) Sankey diagrams.
+A visual editor for [Flowturi](https://github.com/ThatOrJohn/flowturi) Sankey diagrams.
+
+## Demo
+
+![Flowturi Designer animation](assets/FlowturiDesignerDemo.gif)
 
 ## Features
 
 - Interactive node/link editing
-- Optional property assignment
+- Optional process type/relative volume property assignment
+- Export Flowturi animation file
 
 ## Getting Started
 
@@ -17,6 +22,5 @@ npm run dev
 ## Future Work
 
 - Node/link layout export
-- Node grouping
 - Alert thresholds
 - Integration with Flowturi Studio
